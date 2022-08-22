@@ -1,0 +1,30 @@
+table{
+    border: 1px solid green;
+}
+
+td,  th{
+    border-bottom: 1px dotted green;
+    border-right: 1px dotted green
+}
+
+ul{
+    list-style-type: square
+}
+
+ol{
+    list-style-type: lower-roman
+}
+
+.yellow{
+    color: yellow;
+    font-style: italic;
+}
+
+.orange{
+    color: orange;
+    font-family: "Lucida Handwriting", cursive
+}
+
+#strike{
+    text-decoration: line-through
+}

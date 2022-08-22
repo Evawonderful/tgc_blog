@@ -1,0 +1,73 @@
+
+/* logo colors */
+/* #FE0065 light pink
+#AF5894 purple
+#F9A619 yellow
+#CC3466 deeper pink */
+
+
+nav{
+    border: 1px solid #AF5894;  
+}
+
+main{
+    margin: 1px;
+    border: 1px solid #F9A619; 
+    padding: 10px;
+    display: flex;
+
+}
+
+footer{
+
+    border: 1px solid #CC3466 ;  
+    bottom: 0
+}
+
+ul{padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navlinks{
+    margin-top: 10px
+}
+
+a{
+    text-decoration: none; color: inherit;
+
+}
+a:hover{
+     text-decoration: underline;
+     font-weight: bold; 
+     color: #AF5894 }
+
+#logo {
+    width: 25%;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .side{
+    margin-top: 5%;
+    margin-left: 10px;
+    border: 2px dotted #F9A619;
+    font-size: 13px;
+    padding: 5px
+  }
